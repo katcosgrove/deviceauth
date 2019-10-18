@@ -18,7 +18,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/mendersoftware/deviceauth/model"
+	"github.com/mendersoftware/deviceauth/v3/model"
 )
 
 var (

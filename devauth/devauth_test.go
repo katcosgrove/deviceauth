@@ -27,16 +27,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/mendersoftware/deviceauth/client/orchestrator"
-	morchestrator "github.com/mendersoftware/deviceauth/client/orchestrator/mocks"
-	"github.com/mendersoftware/deviceauth/client/tenant"
-	mtenant "github.com/mendersoftware/deviceauth/client/tenant/mocks"
-	"github.com/mendersoftware/deviceauth/jwt"
-	mjwt "github.com/mendersoftware/deviceauth/jwt/mocks"
-	"github.com/mendersoftware/deviceauth/model"
-	"github.com/mendersoftware/deviceauth/store"
-	mstore "github.com/mendersoftware/deviceauth/store/mocks"
-	mtesting "github.com/mendersoftware/deviceauth/utils/testing"
+	"github.com/mendersoftware/deviceauth/v3/client/orchestrator"
+	morchestrator "github.com/mendersoftware/deviceauth/v3/client/orchestrator/mocks"
+	"github.com/mendersoftware/deviceauth/v3/client/tenant"
+	mtenant "github.com/mendersoftware/deviceauth/v3/client/tenant/mocks"
+	"github.com/mendersoftware/deviceauth/v3/jwt"
+	mjwt "github.com/mendersoftware/deviceauth/v3/jwt/mocks"
+	"github.com/mendersoftware/deviceauth/v3/model"
+	"github.com/mendersoftware/deviceauth/v3/store"
+	mstore "github.com/mendersoftware/deviceauth/v3/store/mocks"
+	mtesting "github.com/mendersoftware/deviceauth/v3/utils/testing"
 )
 
 func TestDevAuthSubmitAuthRequest(t *testing.T) {
@@ -317,7 +317,7 @@ func TestDevAuthSubmitAuthRequest(t *testing.T) {
 
 			inReq: model.AuthReq{
 				IdData: idData,
-				PubKey:      pubKey,
+				PubKey: pubKey,
 			},
 
 			config: Config{

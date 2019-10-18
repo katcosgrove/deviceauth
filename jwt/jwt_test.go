@@ -21,7 +21,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mendersoftware/deviceauth/keys"
+	"github.com/mendersoftware/deviceauth/v3/keys"
 )
 
 func TestNewJWTHandlerRS256(t *testing.T) {

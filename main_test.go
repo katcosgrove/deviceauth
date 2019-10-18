@@ -34,13 +34,14 @@ func init() {
 
 	flag.BoolVar(&runAcceptanceTests, "acceptance-tests", false, "set flag when running acceptance tests")
 	flag.StringVar(&cliArgsRaw, "cli-args", "", "for passing urfave/cli args (single string) when golang flags are specified (avoids conflict)")
-	flag.Parse()
 }
 
 func TestRunMain(t *testing.T) {
 	if !runAcceptanceTests {
 		t.Skip()
 	}
+
+	flag.Parse()
 
 	// parse '-cli-args', remember about binary name at idx 0
 	var cliArgs []string

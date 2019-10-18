@@ -24,7 +24,7 @@ import (
 	ctxstore "github.com/mendersoftware/go-lib-micro/store"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mendersoftware/deviceauth/model"
+	"github.com/mendersoftware/deviceauth/v3/model"
 )
 
 func TestMigration_1_5_0(t *testing.T) {

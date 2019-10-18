@@ -27,8 +27,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mendersoftware/deviceauth/model"
-	"github.com/mendersoftware/deviceauth/store"
+	"github.com/mendersoftware/deviceauth/v3/model"
+	"github.com/mendersoftware/deviceauth/v3/store"
 )
 
 func randTime(base time.Time) time.Time {

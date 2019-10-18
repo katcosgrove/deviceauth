@@ -25,11 +25,11 @@ import (
 	"github.com/mendersoftware/go-lib-micro/rest_utils"
 	"github.com/pkg/errors"
 
-	"github.com/mendersoftware/deviceauth/devauth"
-	"github.com/mendersoftware/deviceauth/jwt"
-	"github.com/mendersoftware/deviceauth/model"
-	"github.com/mendersoftware/deviceauth/store"
-	"github.com/mendersoftware/deviceauth/utils"
+	"github.com/mendersoftware/deviceauth/v3/devauth"
+	"github.com/mendersoftware/deviceauth/v3/jwt"
+	"github.com/mendersoftware/deviceauth/v3/model"
+	"github.com/mendersoftware/deviceauth/v3/store"
+	"github.com/mendersoftware/deviceauth/v3/utils"
 )
 
 const (

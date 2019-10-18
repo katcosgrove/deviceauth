@@ -25,8 +25,8 @@ import (
 	ctxstore "github.com/mendersoftware/go-lib-micro/store"
 	"github.com/pkg/errors"
 
-	"github.com/mendersoftware/deviceauth/model"
-	uto "github.com/mendersoftware/deviceauth/utils/to"
+	"github.com/mendersoftware/deviceauth/v3/model"
+	uto "github.com/mendersoftware/deviceauth/v3/utils/to"
 )
 
 type migration_1_5_0 struct {

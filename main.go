@@ -22,10 +22,10 @@ import (
 	"github.com/mendersoftware/go-lib-micro/log"
 	"github.com/urfave/cli"
 
-	cinv "github.com/mendersoftware/deviceauth/client/inventory"
-	"github.com/mendersoftware/deviceauth/cmd"
-	dconfig "github.com/mendersoftware/deviceauth/config"
-	"github.com/mendersoftware/deviceauth/store/mongo"
+	cinv "github.com/mendersoftware/deviceauth/v3/client/inventory"
+	"github.com/mendersoftware/deviceauth/v3/cmd"
+	dconfig "github.com/mendersoftware/deviceauth/v3/config"
+	"github.com/mendersoftware/deviceauth/v3/store/mongo"
 )
 
 func main() {

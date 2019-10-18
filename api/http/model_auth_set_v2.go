@@ -16,7 +16,7 @@ package http
 import (
 	"time"
 
-	"github.com/mendersoftware/deviceauth/model"
+	"github.com/mendersoftware/deviceauth/v3/model"
 )
 
 type authSetV2 struct {

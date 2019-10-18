@@ -33,13 +33,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/satori/go.uuid"
 
-	"github.com/mendersoftware/deviceauth/client/orchestrator"
-	"github.com/mendersoftware/deviceauth/client/tenant"
-	"github.com/mendersoftware/deviceauth/jwt"
-	"github.com/mendersoftware/deviceauth/model"
-	"github.com/mendersoftware/deviceauth/store"
-	"github.com/mendersoftware/deviceauth/store/mongo"
-	uto "github.com/mendersoftware/deviceauth/utils/to"
+	"github.com/mendersoftware/deviceauth/v3/client/orchestrator"
+	"github.com/mendersoftware/deviceauth/v3/client/tenant"
+	"github.com/mendersoftware/deviceauth/v3/jwt"
+	"github.com/mendersoftware/deviceauth/v3/model"
+	"github.com/mendersoftware/deviceauth/v3/store"
+	"github.com/mendersoftware/deviceauth/v3/store/mongo"
+	uto "github.com/mendersoftware/deviceauth/v3/utils/to"
 )
 
 const (

@@ -25,8 +25,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/mendersoftware/deviceauth/model"
-	"github.com/mendersoftware/deviceauth/utils"
+	"github.com/mendersoftware/deviceauth/v3/model"
+	"github.com/mendersoftware/deviceauth/v3/utils"
 )
 
 func TestMigration_1_3_0(t *testing.T) {

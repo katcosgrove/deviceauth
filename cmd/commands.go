@@ -25,12 +25,12 @@ import (
 	mstore "github.com/mendersoftware/go-lib-micro/store"
 	"github.com/pkg/errors"
 
-	cinv "github.com/mendersoftware/deviceauth/client/inventory"
-	dconfig "github.com/mendersoftware/deviceauth/config"
-	"github.com/mendersoftware/deviceauth/model"
-	"github.com/mendersoftware/deviceauth/store"
-	"github.com/mendersoftware/deviceauth/store/mongo"
-	"github.com/mendersoftware/deviceauth/utils"
+	cinv "github.com/mendersoftware/deviceauth/v3/client/inventory"
+	dconfig "github.com/mendersoftware/deviceauth/v3/config"
+	"github.com/mendersoftware/deviceauth/v3/model"
+	"github.com/mendersoftware/deviceauth/v3/store"
+	"github.com/mendersoftware/deviceauth/v3/store/mongo"
+	"github.com/mendersoftware/deviceauth/v3/utils"
 )
 
 var NowUnixMilis = utils.UnixMilis

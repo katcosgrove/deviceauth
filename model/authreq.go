@@ -17,7 +17,7 @@ import (
 	"crypto/rsa"
 	"errors"
 
-	"github.com/mendersoftware/deviceauth/utils"
+	"github.com/mendersoftware/deviceauth/v3/utils"
 )
 
 // note: fields with underscores need the 'bson' decorator

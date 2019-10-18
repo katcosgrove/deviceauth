@@ -24,7 +24,7 @@ import (
 	"github.com/mendersoftware/go-lib-micro/rest_utils"
 	"github.com/pkg/errors"
 
-	"github.com/mendersoftware/deviceauth/utils"
+	"github.com/mendersoftware/deviceauth/v3/utils"
 )
 
 const (

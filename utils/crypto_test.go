@@ -23,7 +23,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 
-	test "github.com/mendersoftware/deviceauth/utils/testing"
+	test "github.com/mendersoftware/deviceauth/v3/utils/testing"
 )
 
 func TestVerifyAuthReqSign(t *testing.T) {

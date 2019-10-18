@@ -21,7 +21,7 @@ import (
 	"github.com/asaskevich/govalidator"
 	"github.com/pkg/errors"
 
-	"github.com/mendersoftware/deviceauth/utils"
+	"github.com/mendersoftware/deviceauth/v3/utils"
 )
 
 type DeviceAuthAttributes map[string]string

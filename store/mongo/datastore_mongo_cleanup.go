@@ -18,8 +18,8 @@ import (
 	"github.com/globalsign/mgo"
 	"github.com/pkg/errors"
 
-	"github.com/mendersoftware/deviceauth/model"
-	"github.com/mendersoftware/deviceauth/store"
+	"github.com/mendersoftware/deviceauth/v3/model"
+	"github.com/mendersoftware/deviceauth/v3/store"
 )
 
 const noCollectionErrMsg = "ns doesn't exist"

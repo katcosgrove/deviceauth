@@ -22,14 +22,14 @@ import (
 	"github.com/mendersoftware/go-lib-micro/log"
 	"github.com/pkg/errors"
 
-	api_http "github.com/mendersoftware/deviceauth/api/http"
-	"github.com/mendersoftware/deviceauth/client/orchestrator"
-	"github.com/mendersoftware/deviceauth/client/tenant"
-	dconfig "github.com/mendersoftware/deviceauth/config"
-	"github.com/mendersoftware/deviceauth/devauth"
-	"github.com/mendersoftware/deviceauth/jwt"
-	"github.com/mendersoftware/deviceauth/keys"
-	"github.com/mendersoftware/deviceauth/store/mongo"
+	api_http "github.com/mendersoftware/deviceauth/v3/api/http"
+	"github.com/mendersoftware/deviceauth/v3/client/orchestrator"
+	"github.com/mendersoftware/deviceauth/v3/client/tenant"
+	dconfig "github.com/mendersoftware/deviceauth/v3/config"
+	"github.com/mendersoftware/deviceauth/v3/devauth"
+	"github.com/mendersoftware/deviceauth/v3/jwt"
+	"github.com/mendersoftware/deviceauth/v3/keys"
+	"github.com/mendersoftware/deviceauth/v3/store/mongo"
 )
 
 func SetupAPI(stacktype string) (*rest.Api, error) {

@@ -33,13 +33,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/mendersoftware/deviceauth/client/tenant"
-	"github.com/mendersoftware/deviceauth/devauth"
-	"github.com/mendersoftware/deviceauth/devauth/mocks"
-	"github.com/mendersoftware/deviceauth/jwt"
-	"github.com/mendersoftware/deviceauth/model"
-	"github.com/mendersoftware/deviceauth/store"
-	mtest "github.com/mendersoftware/deviceauth/utils/testing"
+	"github.com/mendersoftware/deviceauth/v3/client/tenant"
+	"github.com/mendersoftware/deviceauth/v3/devauth"
+	"github.com/mendersoftware/deviceauth/v3/devauth/mocks"
+	"github.com/mendersoftware/deviceauth/v3/jwt"
+	"github.com/mendersoftware/deviceauth/v3/model"
+	"github.com/mendersoftware/deviceauth/v3/store"
+	mtest "github.com/mendersoftware/deviceauth/v3/utils/testing"
 	mt "github.com/mendersoftware/go-lib-micro/testing"
 )
 

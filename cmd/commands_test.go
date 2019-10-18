@@ -25,12 +25,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	minv "github.com/mendersoftware/deviceauth/client/inventory/mocks"
-	dconfig "github.com/mendersoftware/deviceauth/config"
-	"github.com/mendersoftware/deviceauth/model"
-	"github.com/mendersoftware/deviceauth/store"
-	mstore "github.com/mendersoftware/deviceauth/store/mocks"
-	"github.com/mendersoftware/deviceauth/store/mongo"
+	minv "github.com/mendersoftware/deviceauth/v3/client/inventory/mocks"
+	dconfig "github.com/mendersoftware/deviceauth/v3/config"
+	"github.com/mendersoftware/deviceauth/v3/model"
+	"github.com/mendersoftware/deviceauth/v3/store"
+	mstore "github.com/mendersoftware/deviceauth/v3/store/mocks"
+	"github.com/mendersoftware/deviceauth/v3/store/mongo"
 )
 
 func TestMaintenance(t *testing.T) {

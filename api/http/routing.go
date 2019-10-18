@@ -18,7 +18,7 @@ import (
 
 	"github.com/ant0ine/go-json-rest/rest"
 
-	"github.com/mendersoftware/deviceauth/utils"
+	"github.com/mendersoftware/deviceauth/v3/utils"
 )
 
 type HttpOptionsGenerator func(methods []string) rest.HandlerFunc

@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	test "github.com/mendersoftware/deviceauth/utils/testing"
+	test "github.com/mendersoftware/deviceauth/v3/utils/testing"
 )
 
 func TestLoadRsaPrivateKey(t *testing.T) {
